@@ -2,7 +2,7 @@
 void sod(int);
 void main() 
 {
-printf("Enter the number:");
+printf("Input Number:");
 int i;
 scanf("%d",&i);
 sod(i);
@@ -16,5 +16,5 @@ void sod(int a)
     s=s+r;
     a=a/10;
     }
-    printf("SUM IS %d",s);
+    printf("SUM OF DIGITS: %d",s);
 }
